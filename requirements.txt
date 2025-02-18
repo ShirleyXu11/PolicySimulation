@@ -1,7 +1,8 @@
-matplotlib>=3.3
-numpy>=1.19
-pandas>=1.1
-seaborn>=0.11
-PyPDF2>=1.26.0
-requests>=2.24
-ipywidgets>=7.5
+matplotlib
+numpy
+pandas
+seaborn
+PyPDF2
+requests
+ipywidgets
+notebook 
