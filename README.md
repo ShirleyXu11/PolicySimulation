@@ -62,8 +62,6 @@ Feel free to submit:
 ## 📜 License
 This project is licensed under the MIT License.
 
-## 📧 Contact
-- **Your Name:** your.email@example.com
 
 Happy data scraping! 🚀📑
 
