@@ -1,67 +1,58 @@
-# Factiva News Downloader
+# Bangladesh Youth Unemployment Policy Simulator
 
-This project provides a streamlined approach for downloading and managing news articles from Factiva using automated web scraping powered by Selenium and Python.
+An interactive research tool developed to simulate and analyze policy impacts on youth unemployment and economic outcomes in Bangladesh. This simulator is built using Python and Jupyter Notebook and designed for academic research purposes.
 
-## 🚀 Features
+## 🚀 Key Features
 
-- **Automated News Search**: Generate a comprehensive set of news article links based on custom search criteria.
-- **Automated Article Downloading**: Fetch and save news articles efficiently.
-- **Data Management**: Organize results neatly into Excel or CSV files for further analysis.
+- **Interactive Policy Analysis:** Easily simulate the effects of various policy interventions such as educational reforms, rural technology adoption, and gender equity initiatives.
+- **Data Integration:** Automated retrieval and parsing of data from authoritative sources, including BBS Labour Statistics and CEIC Wage Index.
+- **Real-time Visualization:** Clear and intuitive visual representation of policy effects.
+- **Policy Recommendations:** AI-driven expert recommendations based on simulated outcomes.
 
-## 📁 Project Structure
+## 📂 Project Files
 
 ```
-factiva_download/
-├── data/
-│   ├── news_output.xlsx
-│   ├── search_results_with_duplicates.xlsx
-│   ├── search_results_with_urls.xlsx
-│   └── search_term.xlsx
-└── factiva_download.ipynb
+PolicySimulation/
+├── Part3_Policy_simulation.ipynb    # Main Jupyter Notebook for simulation
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 ```
 
-## ⚙️ How to Use
+## ⚙️ Setup and Installation
 
-### 🔧 Step 1: Setup your search terms
-- Modify `search_term.xlsx` to include your desired keywords and date ranges.
+To run this project locally or on platforms like Google Colab:
 
-### 🌐 Step 2: Generate News Links
-- In `factiva_download.ipynb`, replace the placeholder URL with your Factiva shared article link to automatically generate links for articles.
+### Install Dependencies
 
-### 📥 Step 3: Download and Save Articles
-- Run the corresponding cells in the notebook to automate login and download news articles as Excel/CSV.
-
-## 🛠️ Installation & Dependencies
-
-Install required Python libraries:
 ```bash
-pip install pandas selenium openpyxl
+pip install -r requirements.txt
+jupyter nbextension enable --py widgetsnbextension
 ```
 
-- **Selenium WebDriver**: Ensure you have installed the appropriate WebDriver (e.g., ChromeDriver) matching your browser.
+### Run Jupyter Notebook
 
-## 📝 Prerequisites
+```bash
+jupyter notebook Part3_Policy_simulation.ipynb
+```
 
-- A valid Factiva account with permissions to access news articles.
-- Google Chrome browser (recommended) and corresponding ChromeDriver.
+Or open directly in [Google Colab](https://colab.research.google.com).
 
-## 🤖 Libraries Used
-- **pandas**: Data processing and Excel file handling.
-- **selenium**: Automated browser actions and web scraping.
-- **openpyxl**: Excel file manipulation.
+## 📖 Data Sources
 
-## ⚠️ Disclaimer
+- [BBS Labour Force Survey](https://bbs.portal.gov.bd)
+- [CEIC Economic Database](https://www.ceicdata.com)
 
-Please comply with Factiva’s Terms of Service. Use responsibly for research and educational purposes only.
+## 📊 Policy Elasticities
 
-## 🤝 Contribution
-Feel free to submit:
-- Bug reports and feature requests.
-- Pull requests for improvements.
+| Policy Intervention       | Elasticity | Source |
+|---------------------------|------------|--------|
+| Vocational Training       | -0.35      | BBS Labour Survey |
+| Rural AgriTech Adoption   | +0.51      | CEIC Economic Database |
+| Childcare Subsidies       | +0.68      | World Bank |
 
-## 📜 License
-This project is licensed under the MIT License.
+## 📝 Academic References
 
-
-Happy data scraping! 🚀📑
-
+- Bangladesh Bureau of Statistics. (2021). *Labour Force Survey Report.*
+- Ministry of Agriculture. (2023). *Rangpur District Economic Profile.*
+- CEIC Data. (2023). *Bangladesh Wage Rate Index.*
+- World Bank. (
