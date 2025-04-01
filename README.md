@@ -55,4 +55,15 @@ Or open directly in [Google Colab](https://colab.research.google.com).
 - Bangladesh Bureau of Statistics. (2021). *Labour Force Survey Report.*
 - Ministry of Agriculture. (2023). *Rangpur District Economic Profile.*
 - CEIC Data. (2023). *Bangladesh Wage Rate Index.*
-- World Bank. (
+- World Bank. (2022). *Gender and Employment in South Asia.* DOI:10.1596/37241
+
+## 🤝 Contributions
+
+We welcome feedback, suggestions, and contributions!
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+Happy Researching! 📈🚀
+
