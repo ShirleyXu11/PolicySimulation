@@ -14,7 +14,7 @@ An interactive research tool developed to simulate and analyze policy impacts on
 ```
 PolicySimulation/
 ├── Part3_Policy_simulation.ipynb                                    # Main Jupyter Notebook for simulation
-└── [Dashboard.app](https://f879-35-229-157-121.ngrok-free.app/)     # Project documentation
+└── [Dashboard.app](https://f879-35-229-157-121.ngrok-free.app/)     # Dynamic Dashboard Generated (can install in Chrome)
 ├── requirements.txt                                                 # Python dependencies
 └── README.md                                                        # Project documentation
 ```
