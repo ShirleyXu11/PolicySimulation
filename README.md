@@ -18,6 +18,8 @@ PolicySimulation/
 ├── requirements.txt                                                 # Python dependencies
 └── README.md                                                        # Project documentation
 ```
+![image](https://github.com/user-attachments/assets/109c2100-77ee-4bba-890a-8bee33006825)
+
 
 ## ⚙️ Setup and Installation
 
